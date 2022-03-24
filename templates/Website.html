@@ -10,6 +10,13 @@
         margin: auto;
         width: 70%;
         }
+
+        footer {
+        text-align: center;
+        padding: 3px;
+        background: linear-gradient( #2a0244, #33028f);;
+        color: white;
+        }
     </style>
     <body style = "background: linear-gradient(0.3turn, #3f87a6, #ebf8e1, #24df62);
                     background-repeat: no-repeat;
@@ -50,7 +57,7 @@
                 <td rowspan="3">
                     <img style = "border-radius: 25%;
                                   width:255px;
-                                  height: auto;"src = "static\Me.jpeg">
+                                  height: auto;" src = "{{url_for('static',filename = 'Me.jpeg')}}">
                 </td>
             </tr>
             <tr>
@@ -78,6 +85,13 @@
                 </td>
             </tr>
         </table>
+        <footer>
+            <p>Author: Murtaza Cyclewala<br>
+            <a href="mailto:murtazacyclewala27@gmail.com">My E-mail</a> : 
+            <a href="Linkedin.com/MurtazaCyclewala">My LinkedIn</a><br>
+            Contact Info : +7 XXXXXXXXXX
+            </p>
+        </footer>
         </div>
     </body>
 </html>
