@@ -1,0 +1,28 @@
+.center {
+    margin: auto;
+    width: 70%;
+    }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background: linear-gradient( #2a0244, #33028f);;
+    color: white;
+    }
+
+body {
+    background: linear-gradient(0.3turn, #3f87a6, #ebf8e1, #24df62);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+table {
+    padding: 10px;
+    border-spacing: 15px;
+}
+
+img {
+    border-radius: 15%;
+    width:270px;
+    height: auto;
+}

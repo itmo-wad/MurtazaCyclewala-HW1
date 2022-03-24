@@ -1,26 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="{{url_for('static',filename = 'style.css')}}">
         <title>
-            Murtaza Cyclewala
+            That's Me
         </title>
     </head>
-    <style>
-        .center {
-        margin: auto;
-        width: 70%;
-        }
-
-        footer {
-        text-align: center;
-        padding: 3px;
-        background: linear-gradient( #2a0244, #33028f);;
-        color: white;
-        }
-    </style>
-    <body style = "background: linear-gradient(0.3turn, #3f87a6, #ebf8e1, #24df62);
-                    background-repeat: no-repeat;
-                    background-size: 1920px 1080px;">
+    <body>
         <div class="center">
         <h1 style="color: #5e9ca0;
                     text-align: center;
@@ -28,36 +14,34 @@
         <hr style = "border-top: 3px solid  #5e9ca0; 
                     border-radius: 5px;
                     width:100%;" >
+                    <br><br>
         <h2 style="color: #2e6c80;
-                    font-size: 28px;">Who I am?:</h2>
+                    font-size: 30px;">Who I am?:</h2>
         <hr style = "border-top: 2px solid  #2e6c80;
-                    width: 25%;" align="left" >
-        <table style = "padding: 20px;
-                        border-spacing: 15px;"
-                        align="center">
+                    width: 50%;" align="left" >
+        <table align="center">
             <tr>
                 <th colspan="2">
                     <h2 style="color: #2e6c80;
                                 text-align: left;
-                                font-size: 26px;">General Info:</h2>
+                                font-size: 28px;">General Info:</h2>
                 </th>
             </tr>
             <tr>
                 <td style = "font-size: 18px;" >
-                <p>My name is Murtaza Cyclewala .I was 
-                born in Dubai, 2001. Aged 20,born 
-                in 14 May 2001. I Currently am student 
-                in Parul University 2019-23.Trying out 
+                <p>My name is Murtaza Cyclewala. I was 
+                born in Dubai, 2001. Aged 20, born 
+                in 14 May 2001. I currently am student 
+                in Parul University 2019-23. Trying out 
                 different skills and understanding how 
                 things really work in the technical sense.
+                Not Clearly a photo-genic person. 
                 Am a Computer entusiast from the beginning
                 and really fell in love with coding starting 
-                with "Java"
+                with "Java". 
                 </td>
                 <td rowspan="3">
-                    <img style = "border-radius: 25%;
-                                  width:255px;
-                                  height: auto;" src = "{{url_for('static',filename = 'Me.jpeg')}}">
+                    <img src = "{{url_for('static',filename = 'Me.jpeg')}}">
                 </td>
             </tr>
             <tr>
@@ -81,6 +65,7 @@
                         <li style = "font-size: 16px;">Java</li>
                         <li style = "font-size: 16px;">C / C++</li>
                         <li style = "font-size: 16px;">MySQL</li>
+                        <li style = "font-size: 16px;">English</li>
                     </ul>
                 </td>
             </tr>
